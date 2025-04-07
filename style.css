@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background: url(https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg)
+}
+.container{
+    width: 90%;
+    margin:100px auto ;
+    padding: 50px 35px ;
+    border-radius:30px ;
+    background: linear-gradient(130deg, blue,lightblue);
+    text-align: center;;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: white;
+    height: 40px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 13px;
+    font-size: 16px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+
+}
+.search button img{
+    width: 17px;
+}
+.weather-icon{
+    width: 160px;
+    margin: 20px auto;
+}
+.weather h1{
+    font-size: 40px;
+   margin-top: 10px;
+    font-weight: 600px;
+}
+.weather h2{
+    font-size: 40px;
+   margin-top: -10px;
+    font-weight: 500px;
+}
+.about
+{
+    
+   display: flex;
+   justify-content:space-between ; 
+   align-items: center;
+   margin-top:40px;
+   padding: 0px 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img
+{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 25px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;;
+}
+.error{
+    text-align: left;
+    margin-left:10px;
+    font-size:14px;
+    margin-top: 10px;
+    display: none;;
+
+}
